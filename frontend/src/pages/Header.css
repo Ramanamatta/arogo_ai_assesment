@@ -1,0 +1,50 @@
+/* Header.css */
+
+header.navbar {
+  background-color: #060e16;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 5px 0; /* Reduced padding for a smaller height */
+  height: 50px; /* Further reduced height */
+}
+
+header .navbar-brand {
+  font-size: 1.2rem; /* Smaller font size for the brand */
+  font-weight: bold;
+  color: #007bff !important;
+  text-transform: uppercase;
+  line-height: 1; /* Adjusted line height for better alignment */
+}
+
+header .navbar-nav .nav-item .nav-link {
+  font-size: 0.85rem; /* Slightly smaller font size */
+  color: #6c757d !important;
+  padding: 4px 8px; /* Reduced padding for compact spacing */
+  transition: color 0.3s, background-color 0.3s;
+  border-radius: 4px;
+}
+
+header .navbar-nav .nav-item .nav-link:hover {
+  color: #fff !important;
+  background-color: #007bff;
+}
+
+header .navbar-nav .nav-item .nav-link.active {
+  color: #fff !important;
+  background-color: #007bff;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%; /* Ensure elements align within reduced height */
+}
+
+header .navbar-toggler {
+  padding: 3px; /* Smaller padding for the toggle button */
+}
+
+header .navbar-toggler-icon {
+  width: 18px; /* Slightly smaller toggle icon */
+  height: 18px;
+}
